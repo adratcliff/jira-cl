@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Command Line",
+  "description": "Command line interface for managing Jira issues.",
+  "author": "adratcliff",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://yabbrit.atlassian.net/*"],
+      "js": ["jira.js"]
+    }
+  ],
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
+}
